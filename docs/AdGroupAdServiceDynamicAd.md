@@ -1,0 +1,30 @@
+# AdGroupAdServiceDynamicAd
+
+<div lang=\"ja\"> AdGroupAdServiceDynamicAdオブジェクトは、動的ディスプレイ広告の情報を表します。<br> このフィールドは、省略可能となります。<br> ※ADD時、adTypeがDYNAMIC_ADの場合は必須です。 </div> <div lang=\"en\"> AdGroupAdServiceDynamicAd object describes information regarding dynamic ads for display.<br> This field is optional.<br> *If adType is DYNAMIC_AD, this field is required in ADD operation. </div> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**brand_color** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ブランドカラーです。&lt;br&gt; ※RGB、HEX指定です。&lt;br&gt; 設定例：#FFFFFF&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Brand color.&lt;br&gt; Format :RGB or HEX&lt;br&gt; e.g.：#FFFFFF&lt;br&gt; This field is optional in ADD and SET operation. &lt;/div&gt;  | [optional] 
+**button_text** | [**AdGroupAdServiceButtonText**](AdGroupAdServiceButtonText.md) |  | [optional] 
+**campaign_banner_media_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; キャンペーンバナー画像のメディアIDです。&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Campaign banner media ID.&lt;br&gt; This field is optional in ADD and SET operation. &lt;/div&gt;  | [optional] 
+**campaign_banner_media_id2** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; キャンペーンバナー画像のメディアID 2です。&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Campaign banner media ID 2.&lt;br&gt; This field is optional in ADD and SET operation. &lt;/div&gt;  | [optional] 
+**campaign_banner_media_id3** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; キャンペーンバナー画像のメディアID 3です。&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Campaign banner media ID 3.&lt;br&gt; This field is optional in ADD and SET operation. &lt;/div&gt;  | [optional] 
+**campaign_banner_media_id4** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; キャンペーンバナー画像のメディアID 4です。&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Campaign banner media ID 4.&lt;br&gt; This field is optional in ADD and SET operation. &lt;/div&gt;  | [optional] 
+**campaign_banner_url** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; キャンペーンバナーURLです。&lt;br&gt; このフィールドは省略可能となります。&lt;br&gt; ADD時、設定する場合は以下のいずれかの指定が必要となります。&lt;br&gt; - campaignBannerMediaId&lt;br&gt; - campaignBannerMediaId2&lt;br&gt; - campaignBannerMediaId3&lt;br&gt; - campaignBannerMediaId4 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Campaign banner URL.&lt;br&gt; This field is optional.&lt;br&gt; For setting in ADD operation, one of the following is required:&lt;br&gt; - campaignBannerMediaId&lt;br&gt; - campaignBannerMediaId2&lt;br&gt; - campaignBannerMediaId3&lt;br&gt; - campaignBannerMediaId4 &lt;/div&gt;  | [optional] 
+**display_url** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; 表示URLです。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Display URL.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;  | [optional] 
+**is_remove_campaign_banner_media_id** | [**AdGroupAdServiceIsRemoveFlg**](AdGroupAdServiceIsRemoveFlg.md) |  | [optional] 
+**is_remove_campaign_banner_media_id2** | [**AdGroupAdServiceIsRemoveFlg**](AdGroupAdServiceIsRemoveFlg.md) |  | [optional] 
+**is_remove_campaign_banner_media_id3** | [**AdGroupAdServiceIsRemoveFlg**](AdGroupAdServiceIsRemoveFlg.md) |  | [optional] 
+**is_remove_campaign_banner_media_id4** | [**AdGroupAdServiceIsRemoveFlg**](AdGroupAdServiceIsRemoveFlg.md) |  | [optional] 
+**is_remove_campaign_banner_url** | [**AdGroupAdServiceIsRemoveFlg**](AdGroupAdServiceIsRemoveFlg.md) |  | [optional] 
+**logo_media_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ロゴ画像のメディアIDです。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Media ID of logo image.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;  | [optional] 
+**logo_media_id2** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ロゴ画像のメディアID 2です。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Media ID of logo image 2.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;  | [optional] 
+**logo_media_id3** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; ロゴ画像のメディアID 3です。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Media ID of logo image 3.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;  | [optional] 
+**prefix** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; プレフィックスです。&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Prefix.&lt;br&gt; This field is optional in ADD and SET operation. &lt;/div&gt;  | [optional] 
+**principal** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; 広告の主体者表記です。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Advertiser Indication.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;  | [optional] 
+**suffix** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; サフィックスです。&lt;br&gt; ADDおよびSET時、このフィールドは省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Suffix.&lt;br&gt; This field is optional in ADD and SET operation. &lt;/div&gt;  | [optional] 
+**url** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; リンク先URLです。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Destination URL.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,10 @@
+# AdGroupAdServiceCarrierName
+
+<div lang=\"ja\"> AdGroupAdServiceCarrierNameは、モバイルキャリアを表します。<br> ADD時、このフィールドは必須となります。 </div> <div lang=\"en\"> AdGroupAdServiceCarrierName serves carrier types.<br> This field is required in ADD operation. </div> <hr> <p>* <code>DOCOMO</code> - <span lang=\"ja\">NTTドコモです。</span><span lang=\"en\">NTT Docomo</span></p> <p>* <code>KDDI</code> - <span lang=\"ja\">au KDDIです。</span><span lang=\"en\">au KDDI</span></p> <p>* <code>SOFTBANK</code> - <span lang=\"ja\">ソフトバンクモバイルです。</span><span lang=\"en\">SoftBank Mobile</span></p> <p>* <code>NONE</code> - <span lang=\"ja\">すべてのモバイルキャリアです。</span><span lang=\"en\">This setting is mobile all carriers.</span></p> <p>* <code>UNKNOWN</code> - <span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></p> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

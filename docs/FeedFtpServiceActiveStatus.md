@@ -1,0 +1,10 @@
+# FeedFtpServiceActiveStatus
+
+<div lang=\"ja\"> FTPスケジュールの有効/無効を表します。<br> このフィールドは、リクエストの場合は省略可能です。<br> ADD時のデフォルト設定値はACTIVEとなります。 </div> <div lang=\"en\"> FeedFtpServiceActiveStatus object displays status of FTP schedule.<br> This field is optional in requests.<br> The default value in ADD operation will be ACTIVE. </div> <ht> <p>* <code>INACTIVE</code> - <span lang=\"ja\">無効</span><span lang=\"en\">Inactive</span></p> <p>* <code>ACTIVE</code> - <span lang=\"ja\">有効</span><span lang=\"en\">Active</span></p> <p>* <code>UNKNOWN</code> - <span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></p> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

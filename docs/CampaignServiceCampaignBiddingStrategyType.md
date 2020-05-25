@@ -1,0 +1,10 @@
+# CampaignServiceCampaignBiddingStrategyType
+
+<div lang=\"ja\"> キャンペーン入札戦略タイプです。<br> このフィールドは、ADDおよびSET時に必須となり、REMOVE時に無視されます。 </div> <div lang=\"en\"> CampaignServiceCampaignBiddingStrategyType describes setting of campaign bid strategy type.<br> This field is required in ADD and SET operation, and will be ignored in REMOVE operation. </div> <p>* <code>AUTO</code> - <span lang=\"ja\">自動入札</span><span lang=\"en\">Auto bidding</span></p> <hr> <p>* <code>MAX_VCPM</code> - <span lang=\"ja\">最大入札価格指定（vCPM）</span><span lang=\"en\">Max. bid value (vCPM)</span></p> <p>* <code>MAX_CPC</code> - <span lang=\"ja\">最大入札価格指定（CPC）</span><span lang=\"en\">Max. bid value (CPC)</span></p> <p>* <code>MAX_CPV</code> - <span lang=\"ja\">最大入札価格指定（CPV）</span><span lang=\"en\">Max. bid value(CPV)</span></p> <p>* <code>TARGET_CPA</code> - <span lang=\"ja\">目標単価指定（CPA）</span><span lang=\"en\">Target cost specification (CPA)</span></p> <p>* <code>NONE</code> - <span lang=\"ja\">入札戦略指定なし</span><span lang=\"en\">No Setting of bid strategy</span></p> <p>* <code>UNKNOWN</code> - <span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></p> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

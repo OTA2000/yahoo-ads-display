@@ -1,0 +1,31 @@
+# ConversionTracker
+
+<div lang=\"ja\">ConversionTrackerオブジェクトは、コンバージョン測定タグやタグごとのパフォーマンスデータなどのコンバージョントラッカー情報を表します。</div> <div lang=\"en\">ConversionTracker object shows ConversionTracker information such as ConversionTag and performance data by tag.</div> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**account_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; アカウントIDです。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Account ID.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**all_conversion_value** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョンの価値（全て）です。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conv. value (all). &lt;/div&gt;  | [optional] 
+**all_conversions** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョン数（全て）です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conversions (all).&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**app_conversion** | [**ConversionTrackerServiceAppConversion**](ConversionTrackerServiceAppConversion.md) |  | [optional] 
+**category** | [**ConversionTrackerServiceCategory**](ConversionTrackerServiceCategory.md) |  | [optional] 
+**conversion_tracker_id** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョントラッカーIDです。&lt;br&gt; このフィールドは、ADD時は無視され、SET時は必須となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conversion Tracker ID.&lt;br&gt; This field will be ignored in ADD operation, and will be required in SET operation. &lt;/div&gt;  | [optional] 
+**conversion_tracker_name** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョントラッカー名です。&lt;br&gt; このフィールドは、ADD時は必須となり、SET時は省略可能となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conversion Tracker Name.&lt;br&gt; This field is required in ADD operation, and will be optional in SET operation. &lt;/div&gt;  | [optional] 
+**conversion_tracker_type** | [**ConversionTrackerServiceType**](ConversionTrackerServiceType.md) |  | [optional] 
+**conversion_value** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョンの価値/コンバージョン数です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conv. value/conv.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**conversion_value_via_ad_click** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョンの価値（クリック経由）です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conv. value (via click).&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**conversions** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョン数です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conversions.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**conversions_via_ad_click** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョン数（クリック経由）です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Conversions (via click).&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**counting_type** | [**ConversionTrackerServiceCountingType**](ConversionTrackerServiceCountingType.md) |  | [optional] 
+**cross_device_conversions** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; クロスデバイスコンバージョン数です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Cross-device conv.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**exclude_from_bidding** | [**ConversionTrackerServiceExcludeFromBidding**](ConversionTrackerServiceExcludeFromBidding.md) |  | [optional] 
+**measurement_period** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; 計測期間（単位：日）です。&lt;br&gt; ※7～90の範囲内で指定可能です。&lt;br&gt; このフィールドは、リクエストの場合は省略可能です。ADD時のデフォルト設定値は30となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Counting period (Unit: Day).&lt;br&gt; ∗ Can be specified within the range of 7 to 90 days.&lt;br&gt; This field is optional in requests. The default value in ADD operation will be 30. &lt;/div&gt;  | [optional] 
+**measurement_period_view** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; 測定期間（動画視聴）&lt;br&gt; ※1-30の範囲で指定可能です。&lt;br&gt; このフィールドは、リクエストの場合は省略可能です。ADD時のデフォルト設定値は1となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Counting period (Video view).&lt;br&gt; ∗ Can be specified within the range of 1 to 30.&lt;br&gt; This field is optional in requests. The default value in ADD operation will be 1. &lt;/div&gt;  | [optional] 
+**most_recent_conversion_date** | **str** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョンが発生した直近の日付です。&lt;br&gt; ※YYYYMMDD形式です。&lt;br&gt; このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; The date of the most recent conversion.&lt;br&gt; ∗ Format: YYYYMMDD.&lt;br&gt; Although this field will be returned in the response, it will be ignored on input. &lt;/div&gt;  | [optional] 
+**status** | [**ConversionTrackerServiceStatus**](ConversionTrackerServiceStatus.md) |  | [optional] 
+**user_revenue_value** | **int** | &lt;div lang&#x3D;\&quot;ja\&quot;&gt; コンバージョンの収益値です。&lt;br&gt; このフィールドは、リクエストの場合は省略可能です。ADD時のデフォルト設定値は0となります。 &lt;/div&gt; &lt;div lang&#x3D;\&quot;en\&quot;&gt; Revenue value for Conversions.&lt;br&gt; This field is optional in requests. The default value in ADD operation will be 0. &lt;/div&gt;  | [optional] 
+**web_conversion** | [**ConversionTrackerServiceWebConversion**](ConversionTrackerServiceWebConversion.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,10 @@
+# MediaServiceType
+
+<div lang=\"ja\"> MediaTypeは、画像の種類です。<br> このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。 </div> <div lang=\"en\"> MediaServiceType serves the type of media. <br> Although this field will be returned in the response, it will be ignored on input. </div> <hr> <p>* <code>IMAGE</code> - <span lang=\"ja\">画像です。</span><span lang=\"en\">Image.</span></p> <p>* <code>ANIMATION_IMAGE</code> - <span lang=\"ja\">アニメーションGIFです。</span><span lang=\"en\">Animation GIF.</span></p> <p>* <code>UNKNOWN</code> - <span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></p> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

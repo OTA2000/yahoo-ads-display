@@ -1,0 +1,10 @@
+# ConversionTrackerServiceExcludeFromBidding
+
+<div lang=\"ja\"> ConversionTrackerServiceExcludeFromBiddingは、自動入札においての使用有無を表します。<br> このフィールドは、リクエストの場合は省略可能です。ADD時のデフォルト設定値はFALSEとなります。 </div> <div lang=\"en\"> ConversionTrackerServiceExcludeFromBidding displays use or not for auto bidding.<br> This field is optional in requests. The default value in ADD operation will be FALSE. </div> <hr> <p>* <code>FALSE</code> - <span lang=\"ja\">使用します。</span><span lang=\"en\">Include.</span></p> <p>* <code>TRUE</code> - <span lang=\"ja\">使用しません。</span><span lang=\"en\">Exclude.</span></p> <p>* <code>UNKNOWN</code> - <span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></p> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

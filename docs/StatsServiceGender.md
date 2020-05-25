@@ -1,0 +1,10 @@
+# StatsServiceGender
+
+<div lang=\"ja\">StatsServiceGenderは、性別を表します。</div> <div lang=\"en\">StatsServiceGender stands for the gender.</div> <hr> <p>* <code>ST_MALE</code> - <span lang=\"ja\">男性</span><span lang=\"en\">Male</span></p> <p>* <code>ST_FEMALE</code> - <span lang=\"ja\">女性</span><span lang=\"en\">Female</span></p> <p>* <code>ST_UNKNOWN</code> - <span lang=\"ja\">性別不明</span><span lang=\"en\">Unknown</span></p> <p>* <code>UNKNOWN</code> - <span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></p> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

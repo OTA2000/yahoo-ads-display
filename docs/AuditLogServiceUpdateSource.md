@@ -1,0 +1,10 @@
+# AuditLogServiceUpdateSource
+
+<div lang=\"ja\"> AuditLogServiceUpdateSourceは、ダウンロード対象のデータに対して更新を行ったツールの種別を表します。<br> このフィールドは、リクエストの場合は省略可能となります。 </div> <div lang=\"en\"> AuditLogServiceUpdateSource serves update tool type of the download data.<br> This field is optional in requests. </div> <hr> <p>* <code>CAMPAIGN_MANAGEMENT_TOOL</code> - <span lang=\"ja\">広告管理ツールからの履歴です。</span><span lang=\"en\">Campaign Management Tool</span></p> <p>* <code>API</code> - <span lang=\"ja\">APIからの履歴です。</span><span lang=\"en\">API</span></p> <p>* <code>ALL</code> - <span lang=\"ja\">すべての操作者からの履歴です。</span><span lang=\"en\">Operated　by all of operators.</span></p> <p>* <code>UNKNOWN</code> - <span lang=\"ja\">未知の値です。</span><span lang=\"en\">Unknown Value</span></p> 
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
